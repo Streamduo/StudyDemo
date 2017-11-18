@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterViewFlipper;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         multview.setAdapter(aa);
         for (int i=1;i<10;i++){
             list.add("你今天非常棒");
+            Log.i("fhjf","测试测试");
         }
         ArrayAdapter listadapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,list);
         Spinner spinner= (Spinner) findViewById(R.id.spinner);
