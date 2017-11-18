@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private int [] images=new int[]{R.mipmap.bao1,R.mipmap.bao2,R.mipmap.bao3,R.mipmap.bao4,R.mipmap.bao5,
             R.mipmap.bao6,R.mipmap.bao7,R.mipmap.bao8,};
     private StackView stickview;
+    private StackView stickview2;
     private NotificationManager notificationManager;
 
     @Override
